@@ -13,9 +13,9 @@
 #!/bin/bash
 \n
 file="list.txt" 
-***
+\n
 path=$(ls) 
-***
+\n
 for var in $path 
 ***
 do 
