@@ -10,13 +10,13 @@
 
 Код скрипта:
 =====================
-#!/bin/bash
-file="list.txt"
-path=$(ls)
-for var in $path
-do
-if !(grep -q "$var" list.txt)
-then
-echo "$var"
-fi
-done
+#!/bin/bash ***
+file="list.txt" ***
+path=$(ls) ***
+for var in $path ***
+do ***
+if !(grep -q "$var" list.txt) ***
+then ***
+echo "$var" ***
+fi ***
+done ***
