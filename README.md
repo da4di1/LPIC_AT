@@ -11,22 +11,21 @@
 Код скрипта:
 =====================
 #!/bin/bash
-\n
+
 file="list.txt" 
-\n
+
 path=$(ls) 
-\n
+
 for var in $path 
-***
+
 do 
-***
+
 if !(grep -q "$var" list.txt) 
-***
+
 then 
-***
+
 echo "$var" 
-***
+
 fi 
-***
+
 done 
-***
